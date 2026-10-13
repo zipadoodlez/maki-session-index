@@ -67,3 +67,7 @@ project entered through a symlink may need `scope = "all"`.
   i.e. maki after PR #1232.
 - No persistent index yet: a full-store search decodes the files it walks
   (memoized per process).
+
+## License
+
+MIT © Khaled Jaafar
