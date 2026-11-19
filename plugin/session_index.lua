@@ -176,6 +176,7 @@ local function collect(query, limit, all)
 end
 
 maki.api.register_tool({
+  permission = "fs_read",
   name = "session_index",
   kind = "search",
   description = [[Search your past chat sessions.
@@ -209,6 +210,7 @@ maki.api.register_tool({
 })
 
 maki.api.register_tool({
+  permission = "fs_read",
   name = "session_read",
   kind = "read",
   description = [[Read messages from a past session.
